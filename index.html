@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Animate.css for Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Leaflet CSS for Interactive Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="background-music" autoplay loop>
+        <source src="assets/music/background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    
+    <!-- Music Toggle Button -->
+    <button id="music-toggle" class="btn music-toggle">Pause Music</button>
+    
+    <!-- Animated Floating Hearts -->
+    <div class="floating-hearts">
+        <!-- Multiple heart elements will be added here via JavaScript -->
+    </div>
+    
+    <!-- Header Section -->
+    <header>
+        <h1 class="animate__animated animate__bounce">Our Love Story</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>For My Love</h2>
+            <p>This is our journey, our love story.</p>
+            <a href="#our-journey" class="btn animate__animated animate__fadeInUp">Start the Journey</a>
+        </div>
+    </section>
+
+    <!-- Our Journey Section -->
+    <section id="our-journey" class="our-journey">
+        <h2 class="animate__animated animate__fadeInUp">Our Journey</h2>
+        <div class="timeline">
+            <!-- Event 1 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-water"></i>
+                </div>
+                <div class="event-content">
+                    <h3>1. The White Lotus</h3>
+                    <p>I went to the river and got you the white lotus amidst a field of pink.</p>
+                </div>
+            </div>
+            <!-- Event 2 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <div class="event-content">
+                    <h3>2. Supporting You</h3>
+                    <p>I want to help you in every situation, so can you lean on my back?</p>
+                </div>
+            </div>
+            <!-- Event 3 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-feather-alt"></i>
+                </div>
+                <div class="event-content">
+                    <h3>3. Poetic Messages</h3>
+                    <p>Some very good poetic messages to express my feelings for you.</p>
+                    <blockquote>"In your eyes, I find the universe; in your smile, I find my purpose."</blockquote>
+                </div>
+            </div>
+            <!-- Event 4 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-door-open"></i>
+                </div>
+                <div class="event-content">
+                    <h3>4. First Meeting</h3>
+                    <p>How I met you for the first time in front of your door; I always think about you.</p>
+                </div>
+            </div>
+            <!-- Event 5 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-fist-raised"></i>
+                </div>
+                <div class="event-content">
+                    <h3>5. Our Fights</h3>
+                    <p>We fight a lot, but I love teasing you.</p>
+                </div>
+            </div>
+            <!-- Event 6 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-gift"></i>
+                </div>
+                <div class="event-content">
+                    <h3>6. Gifts</h3>
+                    <p>I always like to give you things, so please accept them.</p>
+                </div>
+            </div>
+            <!-- Event 7 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-hands-praying"></i>
+                </div>
+                <div class="event-content">
+                    <h3>7. Dreaming of Umrah</h3>
+                    <p>I dream of doing Umrah with you, visiting beautiful places together, and growing old with you.</p>
+                </div>
+            </div>
+            <!-- Event 8 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="event-content">
+                    <h3>8. Managing Distance</h3>
+                    <p>I know the distance is more now, but we can manage it.</p>
+                </div>
+            </div>
+            <!-- Event 9 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-user-secret"></i>
+                </div>
+                <div class="event-content">
+                    <h3>9. Past Fears</h3>
+                    <p>I fear many things and have been betrayed before. I’m sorry for not opening up easily.</p>
+                </div>
+            </div>
+            <!-- Event 10 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-spider"></i>
+                </div>
+                <div class="event-content">
+                    <h3>10. My Backbone</h3>
+                    <p>I want you to be my backbone so I can walk straight.</p>
+                </div>
+            </div>
+            <!-- Event 11 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-sad-tear"></i>
+                </div>
+                <div class="event-content">
+                    <h3>11. Apologies</h3>
+                    <p>I’m sorry for everything that broke your heart.</p>
+                </div>
+            </div>
+            <!-- Event 12 -->
+            <div class="event animate__animated animate__fadeInUp">
+                <div class="event-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <div class="event-content">
+                    <h3>12. Thank You</h3>
+                    <p>Thank you so much for coming into my life; I am blessed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Map Section -->
+    <section class="map">
+        <h2 class="animate__animated animate__fadeInUp">Distance Between Us</h2>
+        <div id="map"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Thank you for coming into my life. I am blessed to have you.</p>
+    </footer>
+
+    <!-- Leaflet JS for Interactive Map -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    
+    <!-- GSAP Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
